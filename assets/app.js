@@ -288,11 +288,11 @@
 
   async function loadData() {
     const [projectResult, statsResult] = await Promise.allSettled([
-      fetch("./data/projects.json").then((response) => {
+      fetch("./data/projects.json", { cache: "no-store" }).then((response) => {
         if (!response.ok) throw new Error("projects");
         return response.json();
       }),
-      fetch("./data/stats.json").then((response) => {
+      fetch("./data/stats.json", { cache: "no-store" }).then((response) => {
         if (!response.ok) throw new Error("stats");
         return response.json();
       })
