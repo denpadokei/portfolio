@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-21T11:10:10.870Z",
+  "generatedAt": "2026-11-21T17:28:53.135Z",
   "user": "denpadokei",
-  "total": 139,
-  "original": 72,
+  "total": 138,
+  "original": 71,
   "forks": 67,
   "totalStars": 136,
   "totalForks": 41,
@@ -12,11 +12,11 @@
       89
     ],
     [
-      "JavaScript",
-      4
+      "Python",
+      3
     ],
     [
-      "Python",
+      "JavaScript",
       3
     ],
     [
@@ -225,7 +225,7 @@
     ],
     [
       "2026",
-      13
+      12
     ]
   ]
 }

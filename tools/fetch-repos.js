@@ -28,6 +28,9 @@ const uniq = new Map();
 for (const r of all) uniq.set(r.full_name, r);
 
 const repos = [...uniq.values()]
+  // ポートフォリオ自身は自動更新コミットで pushed が毎日更新され、
+  // 「更新が新しい順」で常に先頭に来るため、掲載対象から除外する。
+  .filter((r) => r.full_name !== 'denpadokei/portfolio')
   .filter((r) => !r.archived && !r.disabled)
   .map((r) => ({
     name: r.name,
