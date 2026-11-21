@@ -28,6 +28,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node tools/fetch-repos.js
 
+      # public repo は 60 日間アクティビティが無いと schedule が自動無効化される。
+      # stats.json の generatedAt も毎回変わるが、意図を明示するためハートビートも残す。
+      - name: Record refresh heartbeat
+        run: date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last-refresh.txt
+
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
