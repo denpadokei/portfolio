@@ -16,7 +16,8 @@
   const QUICK_FILTERS = [
     { topic: "", label: "すべて" },
     { topic: "beatsaber-mod", label: "Beat Saber MOD" },
-    { topic: "beatsaber-tool", label: "Beat Saber ツール" }
+    { topic: "beatsaber-tool", label: "Beat Saber ツール" },
+    { topic: "twitch", label: "Twitch" }
   ];
   const LANGUAGE_COLORS = {
     "C#": "#a98bfa", JavaScript: "#f1d363", Python: "#85bf75", PowerShell: "#80b9e8",
@@ -67,6 +68,31 @@
     byId("theme-toggle").addEventListener("click", () => {
       setTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
     });
+  }
+
+  function initBackToTop() {
+    const button = make("button", "back-to-top");
+    button.type = "button";
+    button.setAttribute("aria-label", "ページ上部へ戻る");
+    button.title = "ページ上部へ戻る";
+    const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    icon.setAttribute("viewBox", "0 0 24 24");
+    icon.setAttribute("aria-hidden", "true");
+    icon.setAttribute("focusable", "false");
+    const arrow = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    arrow.setAttribute("d", "M12 19V5m-6 6 6-6 6 6");
+    icon.append(arrow);
+    button.append(icon);
+    document.body.append(button);
+
+    const updateVisibility = () => {
+      button.classList.toggle("is-visible", window.scrollY >= 600);
+    };
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+    button.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    updateVisibility();
   }
 
   function formatDate(value) {
@@ -379,6 +405,7 @@
   }
 
   initTheme();
+  initBackToTop();
   initFilters();
   loadData().catch((error) => {
     console.error("ポートフォリオの表示に失敗しました:", error);

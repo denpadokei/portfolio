@@ -26,8 +26,9 @@ Beat Saber 関連リポジトリには GitHub topics を付与しています。
 
 - `beatsaber-mod`: ゲーム内で動作する MOD / プラグイン（82件）
 - `beatsaber-tool`: MOD 開発・管理などの周辺ツール（14件）
+- `twitch`: Twitch チャット／配信イベント関連（10件）
 
-`node tools/tag-beatsaber.js` で一括付与できます（`--dry-run` で確認のみ）。サイトの「All Projects」にはこのトピックを使ったクイックフィルタがあります。
+`node tools/tag-beatsaber.js` と `node tools/tag-twitch.js` で一括付与できます（`--dry-run` で確認のみ）。サイトの「All Projects」にはこれらのトピックを使ったクイックフィルタがあります。
 
 ## 公開先
 

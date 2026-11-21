@@ -104,7 +104,9 @@
     "full_name": "denpadokei/CatCore",
     "description": "A shared high-performance chat client library written in .NET Standard 2.0 ",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "twitch"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -115,7 +117,7 @@
     "license": "GPL-3.0",
     "created": "2025-05-29",
     "pushed": "2026-11-18",
-    "updated": "2026-11-12",
+    "updated": "2026-11-21",
     "size": 1187,
     "defaultBranch": "denpa-dev",
     "url": "https://github.com/denpadokei/CatCore",
@@ -181,7 +183,8 @@
     "language": "C#",
     "topics": [
       "beatsaber",
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 18,
     "forks": 9,
@@ -205,7 +208,8 @@
     "description": "Enhanced Stream Chat is a rich text chat integration mod for Beat Saber, with full unicode, emote, and emoji support.",
     "language": "C#",
     "topics": [
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 19,
     "forks": 2,
@@ -637,7 +641,8 @@
     "description": "ボムとかがどっかーんってするやつ",
     "language": "C#",
     "topics": [
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 0,
     "forks": 3,
@@ -661,7 +666,8 @@
     "description": "StreamlabsのコメントをなんやかんやするMOD",
     "language": "C#",
     "topics": [
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 0,
     "forks": 0,
@@ -1211,7 +1217,8 @@
     "description": "配信中にBitsとかレイドしてくれた人を記録するMod",
     "language": "C#",
     "topics": [
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 0,
     "forks": 0,
@@ -3080,7 +3087,8 @@
     "description": "Song Request Manager is an integrated, fully Customizable song request bot and Console for BeatSaber.",
     "language": "C#",
     "topics": [
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 0,
     "forks": 0,
@@ -3242,7 +3250,8 @@
     "description": "A rich text chat integration mod with full unicode, emote, and emoji support!",
     "language": "",
     "topics": [
-      "beatsaber-mod"
+      "beatsaber-mod",
+      "twitch"
     ],
     "stars": 0,
     "forks": 0,
@@ -3265,7 +3274,9 @@
     "full_name": "denpadokei/TwitchRainmeter",
     "description": "A plugin for Rainmeter to display the Twitch chat.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "twitch"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -3276,7 +3287,7 @@
     "license": "",
     "created": "2021-09-16",
     "pushed": "2019-06-09",
-    "updated": "2021-09-16",
+    "updated": "2026-11-21",
     "size": 4186,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/TwitchRainmeter",
