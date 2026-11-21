@@ -1,0 +1,41 @@
+name: Refresh repository data
+
+# ポートフォリオに表示する GitHub リポジトリ情報を定期的に再生成する。
+# サイト本体は data/*.json を fetch するので、再デプロイ後すぐ反映される。
+
+on:
+  schedule:
+    - cron: '17 3 * * *' # 毎日 03:17 UTC (JST 12:17)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch repository data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/fetch-repos.js
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: refresh repository data"
+            git push
+          fi
