@@ -154,8 +154,8 @@
       bottom.append(tags, meta);
       const footer = make("div", "repo-meta");
       footer.append(languagePill(project.language));
-      const date = make("time", "", formatDate(project.updated || project.pushed));
-      if (project.updated || project.pushed) date.dateTime = project.updated || project.pushed;
+      const date = make("time", "", formatDate(project.pushed || project.updated));
+      if (project.pushed || project.updated) date.dateTime = project.pushed || project.updated;
       footer.append(date);
       link.append(top, title, description, bottom, footer);
       featuredGrid.append(link);
@@ -229,8 +229,8 @@
     const meta = make("div", "repo-meta");
     meta.append(languagePill(project.language));
     addStats(meta, project.stars, project.forks);
-    const date = make("time", "", formatDate(project.updated || project.pushed));
-    if (project.updated || project.pushed) date.dateTime = project.updated || project.pushed;
+    const date = make("time", "", formatDate(project.pushed || project.updated));
+    if (project.pushed || project.updated) date.dateTime = project.pushed || project.updated;
     meta.append(date);
     const topics = make("div", "repo-topics");
     const topicList = validArray(project.topics);
@@ -266,7 +266,7 @@
     filtered.sort((a, b) => {
       if (sort === "stars") return (Number(b.stars) || 0) - (Number(a.stars) || 0) || a.name.localeCompare(b.name);
       if (sort === "name") return a.name.localeCompare(b.name, "ja", { sensitivity: "base" });
-      return String(b.updated || b.pushed || "").localeCompare(String(a.updated || a.pushed || "")) || a.name.localeCompare(b.name);
+      return String(b.pushed || b.updated || "").localeCompare(String(a.pushed || a.updated || "")) || a.name.localeCompare(b.name);
     });
     clearNode(grid);
     if (!filtered.length) {
