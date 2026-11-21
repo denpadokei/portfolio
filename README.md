@@ -20,6 +20,15 @@ node tools/fetch-repos.js
 
 更新後、変更したデータを GitHub に反映してください。
 
+## Beat Saber のタグ
+
+Beat Saber 関連リポジトリには GitHub topics を付与しています。
+
+- `beatsaber-mod`: ゲーム内で動作する MOD / プラグイン（82件）
+- `beatsaber-tool`: MOD 開発・管理などの周辺ツール（14件）
+
+`node tools/tag-beatsaber.js` で一括付与できます（`--dry-run` で確認のみ）。サイトの「All Projects」にはこのトピックを使ったクイックフィルタがあります。
+
 ## 公開先
 
 https://denpadokei.github.io/portfolio/

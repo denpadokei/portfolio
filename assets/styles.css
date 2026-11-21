@@ -229,6 +229,15 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .all-section { background: var(--bg); }
 .all-heading { margin-bottom: 32px; }
 .subtle { color: var(--subtle); }
+.quick-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.quick-chip {
+  display: inline-flex; align-items: center; gap: 9px; padding: 8px 13px;
+  border: 1px solid var(--line); background: var(--bg-raised); color: var(--muted);
+  font-size: 11px; cursor: pointer; transition: border-color .2s ease, color .2s ease, background .2s ease;
+}
+.quick-chip:hover { border-color: var(--mint); color: var(--text); }
+.quick-chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: var(--accent-ink); }
+.quick-chip .quick-count { font-family: var(--mono); font-size: 9px; opacity: .75; }
 .filters {
   display: grid; grid-template-columns: minmax(190px, 1.6fr) repeat(3, minmax(135px, .9fr)) auto;
   gap: 9px; align-items: center;

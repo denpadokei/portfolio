@@ -13,6 +13,11 @@
     { name: "CatCore", copy: ".NET Standard 2.0 の高性能チャットクライアントライブラリ（upstream へのコントリビューション）", category: "ライブラリ" },
     { name: "opencode-config-backup", copy: "OpenCode / OpenChamber の設定と AI 向け復手順を残す PowerShell プロジェクト", category: "AI / 自動化" }
   ];
+  const QUICK_FILTERS = [
+    { topic: "", label: "すべて" },
+    { topic: "beatsaber-mod", label: "Beat Saber MOD" },
+    { topic: "beatsaber-tool", label: "Beat Saber ツール" }
+  ];
   const LANGUAGE_COLORS = {
     "C#": "#a98bfa", JavaScript: "#f1d363", Python: "#85bf75", PowerShell: "#80b9e8",
     TypeScript: "#62a4e8", "C++": "#ed9b77", C: "#a8b7c7", ShaderLab: "#e1a2ca"
@@ -28,6 +33,7 @@
 
   let projects = [];
   let stats = null;
+  let quickButtons = [];
   const grid = byId("project-grid");
   const featuredGrid = byId("featured-grid");
   const searchInput = byId("search-input");
@@ -154,6 +160,35 @@
     });
   }
 
+  function syncQuickFilters() {
+    quickButtons.forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.topic === topicFilter.value));
+    });
+  }
+
+  function renderQuickFilters() {
+    const container = byId("quick-filters");
+    clearNode(container);
+    quickButtons = QUICK_FILTERS.map((item) => {
+      const count = item.topic
+        ? projects.filter((project) => validArray(project.topics).includes(item.topic)).length
+        : projects.length;
+      const button = make("button", "quick-chip", item.label);
+      button.type = "button";
+      button.dataset.topic = item.topic;
+      button.append(make("span", "quick-count", String(count)));
+      button.addEventListener("click", () => {
+        topicFilter.value = item.topic;
+        // クイックフィルタの件数はフォーク込みなので、選択時はフォークも表示する
+        forkToggle.checked = Boolean(item.topic);
+        renderProjects();
+      });
+      container.append(button);
+      return button;
+    });
+    syncQuickFilters();
+  }
+
   function projectCard(project) {
     const article = make("article", "project-card");
     const titleLink = make("a", "repo-title-link");
@@ -220,6 +255,7 @@
     const result = byId("result-count");
     clearNode(result);
     result.append(count, label);
+    syncQuickFilters();
   }
 
   function renderLanguages() {
@@ -312,6 +348,7 @@
     if (projects.length) {
       renderFeatured();
       renderFilters();
+      renderQuickFilters();
       renderProjects();
     } else {
       clearNode(featuredGrid);

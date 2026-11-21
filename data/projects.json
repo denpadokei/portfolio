@@ -180,7 +180,8 @@
     "description": "ChatCoreに対応したリクエストマネージャー",
     "language": "C#",
     "topics": [
-      "beatsaber"
+      "beatsaber",
+      "beatsaber-mod"
     ],
     "stars": 18,
     "forks": 9,
@@ -192,7 +193,7 @@
     "license": "LGPL-3.0",
     "created": "2020-06-07",
     "pushed": "2026-11-16",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 2262,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/SongRequestManagerV2",
@@ -203,7 +204,9 @@
     "full_name": "denpadokei/EnhancedStreamChat-v3",
     "description": "Enhanced Stream Chat is a rich text chat integration mod for Beat Saber, with full unicode, emote, and emoji support.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 19,
     "forks": 2,
     "watchers": 0,
@@ -214,7 +217,7 @@
     "license": "MIT",
     "created": "2020-11-04",
     "pushed": "2026-11-15",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 159287,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/EnhancedStreamChat-v3",
@@ -225,7 +228,9 @@
     "full_name": "denpadokei/HttpSiraStatus",
     "description": "Live game status over web sockets.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 32,
     "forks": 4,
     "watchers": 0,
@@ -236,7 +241,7 @@
     "license": "MIT",
     "created": "2020-11-10",
     "pushed": "2026-11-15",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 712,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/HttpSiraStatus",
@@ -247,7 +252,9 @@
     "full_name": "denpadokei/HttpStatusExtention",
     "description": "HttpStatusでは表示できない情報を追加で送信します。",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 12,
     "forks": 5,
     "watchers": 0,
@@ -258,7 +265,7 @@
     "license": "MIT",
     "created": "2021-02-03",
     "pushed": "2026-11-14",
-    "updated": "2026-10-15",
+    "updated": "2026-11-21",
     "size": 131,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/HttpStatusExtention",
@@ -269,7 +276,9 @@
     "full_name": "denpadokei/PracticePlugin",
     "description": "Plugin for Beat Saber to control playback speed",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 9,
     "forks": 3,
     "watchers": 0,
@@ -280,7 +289,7 @@
     "license": "MIT",
     "created": "2022-02-28",
     "pushed": "2026-11-14",
-    "updated": "2026-11-09",
+    "updated": "2026-11-21",
     "size": 244,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/PracticePlugin",
@@ -291,7 +300,9 @@
     "full_name": "denpadokei/CustomMenuMusic",
     "description": "Beat Saber plugin to change menu music",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 5,
     "forks": 0,
     "watchers": 0,
@@ -302,7 +313,7 @@
     "license": "MIT",
     "created": "2020-11-02",
     "pushed": "2026-11-14",
-    "updated": "2026-06-03",
+    "updated": "2026-11-21",
     "size": 5980,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/CustomMenuMusic",
@@ -313,7 +324,9 @@
     "full_name": "denpadokei/SyncSaber",
     "description": "A mod to automatically download songs from all your favorite mappers whenever you launch Beat Saber!",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 2,
     "forks": 1,
     "watchers": 0,
@@ -324,7 +337,7 @@
     "license": "MIT",
     "created": "2020-09-04",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 318,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/SyncSaber",
@@ -335,7 +348,9 @@
     "full_name": "denpadokei/AdvancedNoHUD",
     "description": "A Beat Saber mod to give you more control over which parts of the UI show when and where",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -346,7 +361,7 @@
     "license": "MIT",
     "created": "2022-10-26",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 69,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/AdvancedNoHUD",
@@ -357,7 +372,9 @@
     "full_name": "denpadokei/VoiceNote",
     "description": "酸欠Mod",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -368,7 +385,7 @@
     "license": "MIT",
     "created": "2022-10-04",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 49,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/VoiceNote",
@@ -379,7 +396,9 @@
     "full_name": "denpadokei/JapaneseIME",
     "description": "Windows IME Japanese input for Beat Saber 1.40.8 text fields",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -390,7 +409,7 @@
     "license": "",
     "created": "2026-11-10",
     "pushed": "2026-11-14",
-    "updated": "2026-11-11",
+    "updated": "2026-11-21",
     "size": 372,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/JapaneseIME",
@@ -401,7 +420,9 @@
     "full_name": "denpadokei/HeadDistanceTravelled",
     "description": "HMDの移動距離を記録します。",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 1,
     "forks": 1,
     "watchers": 0,
@@ -412,7 +433,7 @@
     "license": "MIT",
     "created": "2022-03-19",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 1630,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/HeadDistanceTravelled",
@@ -423,7 +444,9 @@
     "full_name": "denpadokei/DathBomb",
     "description": "ダスモスタッフロール用使い捨てMOD V2",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -434,7 +457,7 @@
     "license": "MIT",
     "created": "2021-11-08",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 15390,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/DathBomb",
@@ -445,7 +468,9 @@
     "full_name": "denpadokei/ComboSound",
     "description": "太鼓の達人のあれっぽいやつ",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 2,
     "forks": 0,
     "watchers": 0,
@@ -456,7 +481,7 @@
     "license": "MIT",
     "created": "2020-11-04",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 3942,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/ComboSound",
@@ -467,7 +492,9 @@
     "full_name": "denpadokei/BetterPageControll",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -478,7 +505,7 @@
     "license": "",
     "created": "2026-10-23",
     "pushed": "2026-11-14",
-    "updated": "2026-10-23",
+    "updated": "2026-11-21",
     "size": 28,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/BetterPageControll",
@@ -489,7 +516,9 @@
     "full_name": "denpadokei/BeatmapInformation",
     "description": "曲の情報をプレイスペースの後ろに表示するMOD",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 7,
     "forks": 3,
     "watchers": 0,
@@ -500,7 +529,7 @@
     "license": "MIT",
     "created": "2021-02-24",
     "pushed": "2026-11-14",
-    "updated": "2026-11-06",
+    "updated": "2026-11-21",
     "size": 201,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatmapInformation",
@@ -511,7 +540,9 @@
     "full_name": "denpadokei/VMCOculus",
     "description": "Oculusでもフルトラがしたい！",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 2,
     "forks": 0,
     "watchers": 0,
@@ -522,7 +553,7 @@
     "license": "MIT",
     "created": "2020-11-21",
     "pushed": "2026-11-14",
-    "updated": "2021-09-12",
+    "updated": "2026-11-21",
     "size": 51,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/VMCOculus",
@@ -533,7 +564,9 @@
     "full_name": "denpadokei/UltimateFireworks",
     "description": "花火がにぎやかになります",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 2,
     "forks": 0,
     "watchers": 0,
@@ -544,7 +577,7 @@
     "license": "MIT",
     "created": "2020-11-06",
     "pushed": "2026-11-14",
-    "updated": "2024-11-27",
+    "updated": "2026-11-21",
     "size": 380,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/UltimateFireworks",
@@ -555,7 +588,9 @@
     "full_name": "denpadokei/Torimochi",
     "description": "切ったノーツがセイバーに張り付きます",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -566,7 +601,7 @@
     "license": "MIT",
     "created": "2022-04-02",
     "pushed": "2026-11-14",
-    "updated": "2024-11-29",
+    "updated": "2026-11-21",
     "size": 88,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/Torimochi",
@@ -577,7 +612,9 @@
     "full_name": "denpadokei/TogglePauseButton",
     "description": "ポーズボタンの挙動がくそだったのをいい感じにするMod",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -588,7 +625,7 @@
     "license": "MIT",
     "created": "2023-06-27",
     "pushed": "2026-11-14",
-    "updated": "2023-06-27",
+    "updated": "2026-11-21",
     "size": 15,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/TogglePauseButton",
@@ -599,7 +636,9 @@
     "full_name": "denpadokei/StreamPartyCommand",
     "description": "ボムとかがどっかーんってするやつ",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 3,
     "watchers": 0,
@@ -610,7 +649,7 @@
     "license": "MIT",
     "created": "2021-09-13",
     "pushed": "2026-11-14",
-    "updated": "2025-07-31",
+    "updated": "2026-11-21",
     "size": 372,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/StreamPartyCommand",
@@ -621,7 +660,9 @@
     "full_name": "denpadokei/StreamlabsChat",
     "description": "StreamlabsのコメントをなんやかんやするMOD",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -632,7 +673,7 @@
     "license": "MIT",
     "created": "2021-04-20",
     "pushed": "2026-11-14",
-    "updated": "2021-04-20",
+    "updated": "2026-11-21",
     "size": 28,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/StreamlabsChat",
@@ -643,7 +684,9 @@
     "full_name": "denpadokei/SmoothVRPointer",
     "description": "ポインターの手ぶれを補正します。",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -654,7 +697,7 @@
     "license": "MIT",
     "created": "2021-07-31",
     "pushed": "2026-11-14",
-    "updated": "2024-05-29",
+    "updated": "2026-11-21",
     "size": 23,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/SmoothVRPointer",
@@ -665,7 +708,9 @@
     "full_name": "denpadokei/ScoreFeedBackVibring",
     "description": "真ん中切ったらめっちゃ震えるMod",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -676,7 +721,7 @@
     "license": "MIT",
     "created": "2022-11-01",
     "pushed": "2026-11-14",
-    "updated": "2022-11-01",
+    "updated": "2026-11-21",
     "size": 32,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/ScoreFeedBackVibring",
@@ -687,7 +732,9 @@
     "full_name": "denpadokei/RankTextChanger",
     "description": "ランクのテキストを日本語にします",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -698,7 +745,7 @@
     "license": "MIT",
     "created": "2022-04-07",
     "pushed": "2026-11-14",
-    "updated": "2022-04-07",
+    "updated": "2026-11-21",
     "size": 12,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/RankTextChanger",
@@ -753,7 +800,9 @@
     "full_name": "denpadokei/OculusEnableHighFPS",
     "description": "120Hzを解放します",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -764,7 +813,7 @@
     "license": "MIT",
     "created": "2021-05-29",
     "pushed": "2026-11-14",
-    "updated": "2022-01-11",
+    "updated": "2026-11-21",
     "size": 16,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/OculusEnableHighFPS",
@@ -775,7 +824,9 @@
     "full_name": "denpadokei/NJOPriset",
     "description": "曲のオフセットを覚えます",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -786,7 +837,7 @@
     "license": "MIT",
     "created": "2021-09-29",
     "pushed": "2026-11-14",
-    "updated": "2022-01-01",
+    "updated": "2026-11-21",
     "size": 22,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/NJOPriset",
@@ -797,7 +848,9 @@
     "full_name": "denpadokei/NJOCheck",
     "description": "オフセット位置を通知します",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 1,
     "watchers": 0,
@@ -808,7 +861,7 @@
     "license": "MIT",
     "created": "2021-01-26",
     "pushed": "2026-11-14",
-    "updated": "2021-12-22",
+    "updated": "2026-11-21",
     "size": 49,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/NJOCheck",
@@ -819,7 +872,9 @@
     "full_name": "denpadokei/MoreBats",
     "description": "コウモリがばちぼこに増えます",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 1,
     "watchers": 0,
@@ -830,7 +885,7 @@
     "license": "MIT",
     "created": "2021-10-25",
     "pushed": "2026-11-14",
-    "updated": "2024-11-27",
+    "updated": "2026-11-21",
     "size": 25,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/MoreBats",
@@ -841,7 +896,9 @@
     "full_name": "denpadokei/Hukidashi",
     "description": "吹き出しっぽいもの",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -852,7 +909,7 @@
     "license": "MIT",
     "created": "2021-05-30",
     "pushed": "2026-11-14",
-    "updated": "2022-04-29",
+    "updated": "2026-11-21",
     "size": 124,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/Hukidashi",
@@ -863,7 +920,9 @@
     "full_name": "denpadokei/HttpHDTStatus",
     "description": "HMDの移動距離をオーバーレイで表示するためのMod",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 1,
     "watchers": 0,
@@ -874,7 +933,7 @@
     "license": "MIT",
     "created": "2022-03-29",
     "pushed": "2026-11-14",
-    "updated": "2022-03-29",
+    "updated": "2026-11-21",
     "size": 23,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/HttpHDTStatus",
@@ -885,7 +944,9 @@
     "full_name": "denpadokei/HMUIScrollViewBugfix",
     "description": "別画面のも一緒にスクロールしてしまう問題を解決するMod",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -896,7 +957,7 @@
     "license": "MIT",
     "created": "2022-10-12",
     "pushed": "2026-11-14",
-    "updated": "2022-10-12",
+    "updated": "2026-11-21",
     "size": 17,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/HMUIScrollViewBugfix",
@@ -909,6 +970,7 @@
     "language": "C#",
     "topics": [
       "beatsaber",
+      "beatsaber-mod",
       "geforceexperience"
     ],
     "stars": 0,
@@ -921,7 +983,7 @@
     "license": "MIT",
     "created": "2020-07-18",
     "pushed": "2026-11-14",
-    "updated": "2020-11-07",
+    "updated": "2026-11-21",
     "size": 38,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/GeforceExperienceHotKey",
@@ -932,7 +994,9 @@
     "full_name": "denpadokei/FontNao-ru",
     "description": "フォントなお～る",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 3,
     "forks": 0,
     "watchers": 0,
@@ -943,7 +1007,7 @@
     "license": "MIT",
     "created": "2023-11-10",
     "pushed": "2026-11-14",
-    "updated": "2026-08-28",
+    "updated": "2026-11-21",
     "size": 40018,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/FontNao-ru",
@@ -954,7 +1018,9 @@
     "full_name": "denpadokei/FlyingScoreOffset",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -965,7 +1031,7 @@
     "license": "MIT",
     "created": "2021-09-26",
     "pushed": "2026-11-14",
-    "updated": "2022-09-08",
+    "updated": "2026-11-21",
     "size": 20,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/FlyingScoreOffset",
@@ -976,7 +1042,9 @@
     "full_name": "denpadokei/DontPause",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -987,7 +1055,7 @@
     "license": "",
     "created": "2022-06-02",
     "pushed": "2026-11-14",
-    "updated": "2022-06-02",
+    "updated": "2026-11-21",
     "size": 16,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/DontPause",
@@ -998,7 +1066,9 @@
     "full_name": "denpadokei/DisableUnityGC",
     "description": "GC完全撲滅MOD",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 2,
     "forks": 0,
     "watchers": 0,
@@ -1009,7 +1079,7 @@
     "license": "MIT",
     "created": "2021-02-18",
     "pushed": "2026-11-14",
-    "updated": "2022-08-14",
+    "updated": "2026-11-21",
     "size": 48,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/DisableUnityGC",
@@ -1020,7 +1090,9 @@
     "full_name": "denpadokei/DisableSmoothCamera",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -1031,7 +1103,7 @@
     "license": "MIT",
     "created": "2020-08-25",
     "pushed": "2026-11-14",
-    "updated": "2020-08-31",
+    "updated": "2026-11-21",
     "size": 22,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/DisableSmoothCamera",
@@ -1042,7 +1114,9 @@
     "full_name": "denpadokei/DathMo",
     "description": "スタッフロール用使いすてMOD",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1053,7 +1127,7 @@
     "license": "MIT",
     "created": "2020-11-02",
     "pushed": "2026-11-14",
-    "updated": "2024-11-30",
+    "updated": "2026-11-21",
     "size": 42,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/DathMo",
@@ -1064,7 +1138,9 @@
     "full_name": "denpadokei/BSWindowManager",
     "description": "ウインドウをアクティブにするやつ",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1075,7 +1151,7 @@
     "license": "MIT",
     "created": "2020-10-08",
     "pushed": "2026-11-14",
-    "updated": "2026-01-17",
+    "updated": "2026-11-21",
     "size": 32,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BSWindowManager",
@@ -1086,7 +1162,9 @@
     "full_name": "denpadokei/BSPlayerDataBackup",
     "description": "設定をバックアップします",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1097,7 +1175,7 @@
     "license": "",
     "created": "2021-09-21",
     "pushed": "2026-11-14",
-    "updated": "2021-09-21",
+    "updated": "2026-11-21",
     "size": 15,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BSPlayerDataBackup",
@@ -1108,7 +1186,9 @@
     "full_name": "denpadokei/AutoScreenShot",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 2,
     "forks": 2,
     "watchers": 0,
@@ -1119,7 +1199,7 @@
     "license": "MIT",
     "created": "2021-07-20",
     "pushed": "2026-11-14",
-    "updated": "2024-12-10",
+    "updated": "2026-11-21",
     "size": 75,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/AutoScreenShot",
@@ -1130,7 +1210,9 @@
     "full_name": "denpadokei/AndYou",
     "description": "配信中にBitsとかレイドしてくれた人を記録するMod",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1141,7 +1223,7 @@
     "license": "MIT",
     "created": "2021-06-26",
     "pushed": "2026-11-14",
-    "updated": "2021-06-27",
+    "updated": "2026-11-21",
     "size": 27,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/AndYou",
@@ -1152,7 +1234,9 @@
     "full_name": "denpadokei/AdjustOnlyGame",
     "description": "ゲームだけ手元ずらす奴",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1163,7 +1247,7 @@
     "license": "",
     "created": "2022-06-19",
     "pushed": "2026-11-14",
-    "updated": "2022-06-19",
+    "updated": "2026-11-21",
     "size": 12,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/AdjustOnlyGame",
@@ -1178,6 +1262,7 @@
       "agent-skills",
       "ai-agents",
       "beatsaber",
+      "beatsaber-tool",
       "bsipa",
       "bsmg",
       "copilot",
@@ -1195,7 +1280,7 @@
     "license": "MIT",
     "created": "2026-11-06",
     "pushed": "2026-11-11",
-    "updated": "2026-11-11",
+    "updated": "2026-11-21",
     "size": 206,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/beatsaber-modding-skills",
@@ -1208,6 +1293,7 @@
     "language": "Python",
     "topics": [
       "beat-saber",
+      "beatsaber-tool",
       "bsipa",
       "csharp",
       "mcp",
@@ -1224,7 +1310,7 @@
     "license": "MIT",
     "created": "2026-11-10",
     "pushed": "2026-11-10",
-    "updated": "2026-11-10",
+    "updated": "2026-11-21",
     "size": 207,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/BeatSaberModdingToolsMCP",
@@ -1301,7 +1387,9 @@
     "full_name": "denpadokei/UnityModdingTools.Templates.BeatSaber",
     "description": "Templates for BSIPA Beat Saber plugins.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1312,7 +1400,7 @@
     "license": "MIT",
     "created": "2025-02-07",
     "pushed": "2026-02-06",
-    "updated": "2025-02-07",
+    "updated": "2026-11-21",
     "size": 192,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/UnityModdingTools.Templates.BeatSaber",
@@ -1323,7 +1411,9 @@
     "full_name": "denpadokei/bs-manager",
     "description": "An all-in-one tool that lets you easly manage BeatSaber versions, maps, mods, and even more.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1334,7 +1424,7 @@
     "license": "GPL-3.0",
     "created": "2025-08-29",
     "pushed": "2025-08-28",
-    "updated": "2025-08-29",
+    "updated": "2026-11-21",
     "size": 267036,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/bs-manager",
@@ -1345,7 +1435,9 @@
     "full_name": "denpadokei/AutoPauseStealth",
     "description": "BeatSaber Mod automatically pausing the game at startup to avoid lag spikes",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1356,7 +1448,7 @@
     "license": "MIT",
     "created": "2023-07-11",
     "pushed": "2025-05-14",
-    "updated": "2025-05-14",
+    "updated": "2026-11-21",
     "size": 1463,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/AutoPauseStealth",
@@ -1367,7 +1459,9 @@
     "full_name": "denpadokei/BeatSaberModdingTools",
     "description": "Visual Studio extension and templates for creating Beat Saber mods.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1378,7 +1472,7 @@
     "license": "Unlicense",
     "created": "2021-12-01",
     "pushed": "2024-09-25",
-    "updated": "2024-09-23",
+    "updated": "2026-11-21",
     "size": 768,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaberModdingTools",
@@ -1389,7 +1483,9 @@
     "full_name": "denpadokei/CustomPlatforms",
     "description": "A BSIPA Plugin for Beat Saber that adds support for custom environments (platforms) ",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1400,7 +1496,7 @@
     "license": "GPL-3.0",
     "created": "2024-02-06",
     "pushed": "2024-09-04",
-    "updated": "2024-09-04",
+    "updated": "2026-11-21",
     "size": 5116,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/CustomPlatforms",
@@ -1455,7 +1551,9 @@
     "full_name": "denpadokei/HighlightBombs",
     "description": "A Beat Saber mod that adds an outline to bombs.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1466,7 +1564,7 @@
     "license": "GPL-3.0",
     "created": "2024-05-15",
     "pushed": "2024-05-15",
-    "updated": "2024-05-15",
+    "updated": "2026-11-21",
     "size": 48,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/HighlightBombs",
@@ -1477,7 +1575,9 @@
     "full_name": "denpadokei/CameraPlus",
     "description": "Plugin for Beat Saber for a smoother and wider FOV camera",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1488,7 +1588,7 @@
     "license": "MIT",
     "created": "2022-01-21",
     "pushed": "2024-05-15",
-    "updated": "2024-05-14",
+    "updated": "2026-11-21",
     "size": 7746,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/CameraPlus",
@@ -1499,7 +1599,9 @@
     "full_name": "denpadokei/JDFixer",
     "description": "Allows automated forcing of jump distance (JD) across maps. And now Reaction Time too.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1510,7 +1612,7 @@
     "license": "AGPL-3.0",
     "created": "2024-05-14",
     "pushed": "2024-05-14",
-    "updated": "2024-05-14",
+    "updated": "2026-11-21",
     "size": 66202,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/JDFixer",
@@ -1543,7 +1645,9 @@
     "full_name": "denpadokei/beatsaber-overlay",
     "description": "BeatSaber Overlay with real-time data from HttpSiraStatus. Can also show stats from ScoreSaber and BeatLeader!",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1554,7 +1658,7 @@
     "license": "MIT",
     "created": "2024-04-04",
     "pushed": "2024-03-16",
-    "updated": "2024-04-04",
+    "updated": "2026-11-21",
     "size": 3336,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/beatsaber-overlay",
@@ -1565,7 +1669,9 @@
     "full_name": "denpadokei/CountersPlus",
     "description": "A combination of widely-used counters, all configurable in one Beat Saber mod.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1576,7 +1682,7 @@
     "license": "MIT",
     "created": "2024-02-12",
     "pushed": "2024-02-16",
-    "updated": "2024-02-16",
+    "updated": "2026-11-21",
     "size": 2301,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/CountersPlus",
@@ -1587,7 +1693,9 @@
     "full_name": "denpadokei/PPCounter",
     "description": "Beat Saber mod that adds a custom counter to Counters+ displaying how much pp your current play is worth on a ranked map",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1598,7 +1706,7 @@
     "license": "",
     "created": "2024-02-09",
     "pushed": "2024-02-09",
-    "updated": "2024-02-09",
+    "updated": "2026-11-21",
     "size": 105,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/PPCounter",
@@ -1609,7 +1717,9 @@
     "full_name": "denpadokei/FC-Percentage",
     "description": "",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1620,7 +1730,7 @@
     "license": "",
     "created": "2024-02-09",
     "pushed": "2024-02-09",
-    "updated": "2024-02-09",
+    "updated": "2026-11-21",
     "size": 214,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/FC-Percentage",
@@ -1631,7 +1741,9 @@
     "full_name": "denpadokei/SaberFactory",
     "description": "A highly customizable custom saber mod for Beat Saber",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1642,7 +1754,7 @@
     "license": "GPL-3.0",
     "created": "2024-02-15",
     "pushed": "2024-01-17",
-    "updated": "2024-02-15",
+    "updated": "2026-11-21",
     "size": 59035,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/SaberFactory",
@@ -1653,7 +1765,9 @@
     "full_name": "denpadokei/BeatSaber_BetterSongList",
     "description": "Adds Various improvements to the Basegame song list like Filters, a persisted state and much more",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1664,7 +1778,7 @@
     "license": "MIT",
     "created": "2021-09-07",
     "pushed": "2023-12-07",
-    "updated": "2021-11-08",
+    "updated": "2026-11-21",
     "size": 282,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaber_BetterSongList",
@@ -1697,7 +1811,9 @@
     "full_name": "denpadokei/BeatSaber-IPA-Reloaded",
     "description": "A not-so-simple anymore Unity mod injector, originally built for Beat Saber.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1708,7 +1824,7 @@
     "license": "NOASSERTION",
     "created": "2022-03-08",
     "pushed": "2023-09-29",
-    "updated": "2023-09-29",
+    "updated": "2026-11-21",
     "size": 68768,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaber-IPA-Reloaded",
@@ -1719,7 +1835,9 @@
     "full_name": "denpadokei/DiTails",
     "description": "View extra details about a map in Beat Saber",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1730,7 +1848,7 @@
     "license": "MIT",
     "created": "2023-07-17",
     "pushed": "2023-08-22",
-    "updated": "2023-07-18",
+    "updated": "2026-11-21",
     "size": 89,
     "defaultBranch": "denpa-main",
     "url": "https://github.com/denpadokei/DiTails",
@@ -1741,7 +1859,9 @@
     "full_name": "denpadokei/DiBris",
     "description": "Customize your debris in Beat Saber!",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1752,7 +1872,7 @@
     "license": "GPL-3.0",
     "created": "2022-04-16",
     "pushed": "2023-07-10",
-    "updated": "2022-04-23",
+    "updated": "2026-11-21",
     "size": 162,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/DiBris",
@@ -1763,7 +1883,9 @@
     "full_name": "denpadokei/BeatSaberMarkupLanguage",
     "description": "",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1774,7 +1896,7 @@
     "license": "MIT",
     "created": "2023-06-29",
     "pushed": "2023-06-29",
-    "updated": "2023-06-29",
+    "updated": "2026-11-21",
     "size": 1362,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaberMarkupLanguage",
@@ -1785,7 +1907,9 @@
     "full_name": "denpadokei/NoteMode",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1796,7 +1920,7 @@
     "license": "MIT",
     "created": "2022-01-20",
     "pushed": "2023-06-27",
-    "updated": "2022-02-17",
+    "updated": "2026-11-21",
     "size": 154,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/NoteMode",
@@ -1807,7 +1931,9 @@
     "full_name": "denpadokei/PlaylistManager",
     "description": "An ingame playlist manager mod for beat saber",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1818,7 +1944,7 @@
     "license": "GPL-3.0",
     "created": "2021-01-19",
     "pushed": "2023-06-27",
-    "updated": "2023-06-27",
+    "updated": "2026-11-21",
     "size": 377267,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/PlaylistManager",
@@ -1829,7 +1955,9 @@
     "full_name": "denpadokei/NullponSpectrum",
     "description": "BeatSaber Mod. プレイエリアにビジュアライザーを追加する",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -1840,7 +1968,7 @@
     "license": "MIT",
     "created": "2022-08-06",
     "pushed": "2023-06-27",
-    "updated": "2022-09-09",
+    "updated": "2026-11-21",
     "size": 224,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/NullponSpectrum",
@@ -1851,7 +1979,9 @@
     "full_name": "denpadokei/beatleader-mod",
     "description": "BeatLeader mod for PC Beat Saber",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1862,7 +1992,7 @@
     "license": "MIT",
     "created": "2023-06-27",
     "pushed": "2023-06-26",
-    "updated": "2023-06-27",
+    "updated": "2026-11-21",
     "size": 27323,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/beatleader-mod",
@@ -1873,7 +2003,9 @@
     "full_name": "denpadokei/EasyOffset",
     "description": "Beat Saber mod for easy controller adjustments",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1884,7 +2016,7 @@
     "license": "",
     "created": "2023-06-27",
     "pushed": "2023-06-26",
-    "updated": "2023-06-27",
+    "updated": "2026-11-21",
     "size": 682540,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/EasyOffset",
@@ -1895,7 +2027,9 @@
     "full_name": "denpadokei/AudioSplitter",
     "description": "",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1906,7 +2040,7 @@
     "license": "MIT",
     "created": "2023-12-08",
     "pushed": "2023-03-06",
-    "updated": "2023-12-08",
+    "updated": "2026-11-21",
     "size": 1523,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/AudioSplitter",
@@ -1917,7 +2051,9 @@
     "full_name": "denpadokei/BeatServerBrowser",
     "description": "BeatServer上の曲などを任意に検索、ダウンロードできるツール",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 1,
     "forks": 0,
     "watchers": 0,
@@ -1928,7 +2064,7 @@
     "license": "MIT",
     "created": "2020-03-11",
     "pushed": "2022-12-08",
-    "updated": "2022-06-08",
+    "updated": "2026-11-21",
     "size": 582,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatServerBrowser",
@@ -1939,7 +2075,9 @@
     "full_name": "denpadokei/ScoreSaber-Plugin",
     "description": "The PC plugin for ScoreSaber",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 1,
     "watchers": 0,
@@ -1950,7 +2088,7 @@
     "license": "MIT",
     "created": "2022-11-19",
     "pushed": "2022-11-19",
-    "updated": "2022-11-19",
+    "updated": "2026-11-21",
     "size": 371,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/ScoreSaber-Plugin",
@@ -1961,7 +2099,9 @@
     "full_name": "denpadokei/beat-saber-overlay-1",
     "description": "Overlay components for streaming beat saber",
     "language": "TypeScript",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 1,
     "forks": 1,
     "watchers": 0,
@@ -1972,7 +2112,7 @@
     "license": "MIT",
     "created": "2022-07-08",
     "pushed": "2022-10-05",
-    "updated": "2022-08-14",
+    "updated": "2026-11-21",
     "size": 1157,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/beat-saber-overlay-1",
@@ -1983,7 +2123,9 @@
     "full_name": "denpadokei/OcuFix",
     "description": "Simple mod to automatically disable ASW and change services/runtime priority",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -1994,7 +2136,7 @@
     "license": "MIT",
     "created": "2024-12-09",
     "pushed": "2022-09-18",
-    "updated": "2024-12-09",
+    "updated": "2026-11-21",
     "size": 6599,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/OcuFix",
@@ -2031,7 +2173,9 @@
     "full_name": "denpadokei/AudioVisualizer-BeatSaber",
     "description": "",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2042,7 +2186,7 @@
     "license": "",
     "created": "2022-04-29",
     "pushed": "2022-04-29",
-    "updated": "2022-04-29",
+    "updated": "2026-11-21",
     "size": 2128,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/AudioVisualizer-BeatSaber",
@@ -2053,7 +2197,9 @@
     "full_name": "denpadokei/beat-saber-overlay",
     "description": "BeatSaber Overlay 改良版",
     "language": "JavaScript",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2064,7 +2210,7 @@
     "license": "NOASSERTION",
     "created": "2020-12-30",
     "pushed": "2022-04-28",
-    "updated": "2022-04-05",
+    "updated": "2026-11-21",
     "size": 157,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/beat-saber-overlay",
@@ -2075,7 +2221,9 @@
     "full_name": "denpadokei/SoundReplacer",
     "description": "BSIPA mod for replacing hit sounds, menu music, click sounds and much more!",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2086,7 +2234,7 @@
     "license": "MIT",
     "created": "2022-04-14",
     "pushed": "2022-04-16",
-    "updated": "2024-12-08",
+    "updated": "2026-11-21",
     "size": 1736,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/SoundReplacer",
@@ -2097,7 +2245,9 @@
     "full_name": "denpadokei/CreateAllSongPlaylist",
     "description": "持ってるすべての曲をプレイリストにするツールです。",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2108,7 +2258,7 @@
     "license": "MIT",
     "created": "2022-04-09",
     "pushed": "2022-04-09",
-    "updated": "2022-04-09",
+    "updated": "2026-11-21",
     "size": 10,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/CreateAllSongPlaylist",
@@ -2119,7 +2269,9 @@
     "full_name": "denpadokei/TrickSaber",
     "description": "A Beat Saber plugin for performing various tricks",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2130,7 +2282,7 @@
     "license": "MIT",
     "created": "2022-05-29",
     "pushed": "2022-04-02",
-    "updated": "2022-05-29",
+    "updated": "2026-11-21",
     "size": 12722,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/TrickSaber",
@@ -2141,7 +2293,9 @@
     "full_name": "denpadokei/BeatSaverVoting",
     "description": "A Beat Saber Plugin allowing you to up/downvote songs on BeatSaver from in game",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2152,7 +2306,7 @@
     "license": "MIT",
     "created": "2022-05-11",
     "pushed": "2022-03-31",
-    "updated": "2021-12-17",
+    "updated": "2026-11-21",
     "size": 95,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaverVoting",
@@ -2163,7 +2317,9 @@
     "full_name": "denpadokei/CustomBanners",
     "description": "Custom Banners",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2174,7 +2330,7 @@
     "license": "MIT",
     "created": "2021-12-31",
     "pushed": "2022-03-13",
-    "updated": "2022-03-13",
+    "updated": "2026-11-21",
     "size": 450,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/CustomBanners",
@@ -2207,7 +2363,9 @@
     "full_name": "denpadokei/BeatSaberSongDataCore",
     "description": "A Beat Saber Plugin that manages scraped data from various sources.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2218,7 +2376,7 @@
     "license": "MIT",
     "created": "2021-12-24",
     "pushed": "2021-12-22",
-    "updated": "2021-12-24",
+    "updated": "2026-11-21",
     "size": 70,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaberSongDataCore",
@@ -2229,7 +2387,9 @@
     "full_name": "denpadokei/LocalModAssistant",
     "description": "サーバーにないModをバックアップしたり入れなおしたり",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 3,
     "forks": 1,
     "watchers": 0,
@@ -2240,7 +2400,7 @@
     "license": "MIT",
     "created": "2020-11-13",
     "pushed": "2021-12-22",
-    "updated": "2022-06-08",
+    "updated": "2026-11-21",
     "size": 22,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/LocalModAssistant",
@@ -2251,7 +2411,9 @@
     "full_name": "denpadokei/SiraLocalizer",
     "description": "Community localization support in Beat Saber.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2262,7 +2424,7 @@
     "license": "MIT",
     "created": "2022-01-14",
     "pushed": "2021-12-10",
-    "updated": "2021-12-28",
+    "updated": "2026-11-21",
     "size": 251929,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/SiraLocalizer",
@@ -2339,7 +2501,9 @@
     "full_name": "denpadokei/HitSoundChanger",
     "description": "A plugin for changing hitsounds in Beat Saber",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2350,7 +2514,7 @@
     "license": "MIT",
     "created": "2022-04-13",
     "pushed": "2021-10-05",
-    "updated": "2022-04-13",
+    "updated": "2026-11-21",
     "size": 3541,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/HitSoundChanger",
@@ -2405,7 +2569,9 @@
     "full_name": "denpadokei/BeatSaberSongBrowser",
     "description": "BeatSaber plugin, adds much needed functionality to the song selection interface.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2416,7 +2582,7 @@
     "license": "MIT",
     "created": "2021-08-09",
     "pushed": "2021-09-06",
-    "updated": "2021-09-06",
+    "updated": "2026-11-21",
     "size": 16290,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaberSongBrowser",
@@ -2449,7 +2615,9 @@
     "full_name": "denpadokei/BeatSaverDownloader",
     "description": "Mod for Beat Saber to download songs from BeatSaver.com in-game",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2460,7 +2628,7 @@
     "license": "MIT",
     "created": "2021-08-07",
     "pushed": "2021-08-07",
-    "updated": "2021-08-07",
+    "updated": "2026-11-21",
     "size": 4244,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaverDownloader",
@@ -2471,7 +2639,9 @@
     "full_name": "denpadokei/NotesPredictor",
     "description": "",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2482,7 +2652,7 @@
     "license": "",
     "created": "2021-07-27",
     "pushed": "2021-07-27",
-    "updated": "2021-07-27",
+    "updated": "2026-11-21",
     "size": 21,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/NotesPredictor",
@@ -2581,7 +2751,9 @@
     "full_name": "denpadokei/CenterDistanceCounter",
     "description": "斬ったノーツの中心と切断点の絶対的距離・相対的距離の平均をcm単位で表示するCountersPlusのカスタムカウンター",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2592,7 +2764,7 @@
     "license": "MIT",
     "created": "2021-07-04",
     "pushed": "2021-07-04",
-    "updated": "2021-07-04",
+    "updated": "2026-11-21",
     "size": 268,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/CenterDistanceCounter",
@@ -2626,6 +2798,7 @@
     "description": "BeatSaberとゆかりねっとをつなぐやつ",
     "language": "C#",
     "topics": [
+      "beatsaber-mod",
       "plugin",
       "yukarinette"
     ],
@@ -2639,7 +2812,7 @@
     "license": "MIT",
     "created": "2021-06-06",
     "pushed": "2021-06-22",
-    "updated": "2021-06-22",
+    "updated": "2026-11-21",
     "size": 32,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaberConnector",
@@ -2766,7 +2939,9 @@
     "full_name": "denpadokei/TournamentAssistant",
     "description": "A program designed to make it easier to coordinate tournaments for the VR rhythm game Beat Saber",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2777,7 +2952,7 @@
     "license": "MIT",
     "created": "2021-04-26",
     "pushed": "2021-04-23",
-    "updated": "2021-04-26",
+    "updated": "2026-11-21",
     "size": 3844,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/TournamentAssistant",
@@ -2880,7 +3055,9 @@
     "full_name": "denpadokei/PlaylistLoaderPlugin",
     "description": "This plugin uses the official Playlist UI and loads custom playlist files in Beat Saber.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2891,7 +3068,7 @@
     "license": "MIT",
     "created": "2020-09-25",
     "pushed": "2020-10-03",
-    "updated": "2020-10-03",
+    "updated": "2026-11-21",
     "size": 4964,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/PlaylistLoaderPlugin",
@@ -2902,7 +3079,9 @@
     "full_name": "denpadokei/SongRequestManager",
     "description": "Song Request Manager is an integrated, fully Customizable song request bot and Console for BeatSaber.",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2913,7 +3092,7 @@
     "license": "LGPL-3.0",
     "created": "2020-06-07",
     "pushed": "2020-08-20",
-    "updated": "2020-08-20",
+    "updated": "2026-11-21",
     "size": 3789,
     "defaultBranch": "denpadokeidev",
     "url": "https://github.com/denpadokei/SongRequestManager",
@@ -2924,7 +3103,9 @@
     "full_name": "denpadokei/BeatSaberMultiplayer",
     "description": "",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2935,7 +3116,7 @@
     "license": "MIT",
     "created": "2020-08-20",
     "pushed": "2020-08-19",
-    "updated": "2020-08-20",
+    "updated": "2026-11-21",
     "size": 19883,
     "defaultBranch": "MultiplayerLite",
     "url": "https://github.com/denpadokei/BeatSaberMultiplayer",
@@ -2946,7 +3127,9 @@
     "full_name": "denpadokei/BiliSaber",
     "description": "Display Bilibili Live Danmaku in BeatSaber.",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -2957,7 +3140,7 @@
     "license": "",
     "created": "2021-04-22",
     "pushed": "2020-05-30",
-    "updated": "2021-04-22",
+    "updated": "2026-11-21",
     "size": 293,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BiliSaber",
@@ -3034,7 +3217,9 @@
     "full_name": "denpadokei/BeatSaberBackUpTool",
     "description": "BeatSabaerのバックアップ取るやつ（単にzipにするだけ）",
     "language": "C#",
-    "topics": [],
+    "topics": [
+      "beatsaber-tool"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -3045,7 +3230,7 @@
     "license": "MIT",
     "created": "2020-02-29",
     "pushed": "2020-03-04",
-    "updated": "2020-03-04",
+    "updated": "2026-11-21",
     "size": 45,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/BeatSaberBackUpTool",
@@ -3056,7 +3241,9 @@
     "full_name": "denpadokei/EnhancedStreamChat",
     "description": "A rich text chat integration mod with full unicode, emote, and emoji support!",
     "language": "",
-    "topics": [],
+    "topics": [
+      "beatsaber-mod"
+    ],
     "stars": 0,
     "forks": 0,
     "watchers": 0,
@@ -3067,7 +3254,7 @@
     "license": "LGPL-3.0",
     "created": "2020-06-07",
     "pushed": "2020-02-28",
-    "updated": "2020-06-07",
+    "updated": "2026-11-21",
     "size": 4022,
     "defaultBranch": "master",
     "url": "https://github.com/denpadokei/EnhancedStreamChat",
