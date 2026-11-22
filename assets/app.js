@@ -55,17 +55,23 @@
 
   function setTheme(theme) {
     document.documentElement.dataset.theme = theme;
-    const light = theme === "light";
-    byId("theme-toggle").setAttribute("aria-label", light ? "ダークテーマに切り替え" : "ライトテーマに切り替え");
+    const toggle = byId("theme-toggle");
+    if (toggle) {
+      const light = theme === "light";
+      toggle.setAttribute("aria-label", light ? "ダークテーマに切り替え" : "ライトテーマに切り替え");
+    }
     try { localStorage.setItem("portfolio-theme", theme); } catch { /* 保存できない環境では現在の表示だけ切り替える */ }
   }
 
   function initTheme() {
+    const toggle = byId("theme-toggle");
+    // テーマ切り替えボタンのないページ（阿部寛風ページなど）では何もしない
+    if (!toggle) return;
     let saved = null;
     try { saved = localStorage.getItem("portfolio-theme"); } catch { /* localStorage が使えない場合はOS設定に従う */ }
     const preferred = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
     setTheme(saved === "light" || saved === "dark" ? saved : preferred);
-    byId("theme-toggle").addEventListener("click", () => {
+    toggle.addEventListener("click", () => {
       setTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
     });
   }

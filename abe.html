@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="denpadokei のホームページ（クラシック版）。VRゲームMODからデスクトップアプリ、自動化・AIツールまでのポートフォリオ。">
+  <title>denpadokei のホームページ</title>
+  <link rel="stylesheet" href="./assets/abe.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <div class="abe-layout">
+    <nav class="abe-menu" aria-label="サイトメニュー">
+      <p class="menu-head">MENU</p>
+      <ul class="menu-list">
+        <li><span class="menu-dot" style="color:#ffcccc" aria-hidden="true">●</span><a href="#main">トップ</a></li>
+        <li><span class="menu-dot" style="color:#00ff00" aria-hidden="true">●</span><a href="#about">About</a></li>
+        <li><span class="menu-dot" style="color:#33ffff" aria-hidden="true">●</span><a href="#featured">Projects</a></li>
+        <li><span class="menu-dot" style="color:#0099ff" aria-hidden="true">●</span><a href="#all-projects">Repository</a></li>
+        <li><span class="menu-dot" style="color:#0000ff" aria-hidden="true">●</span><a href="#activity">Activity</a></li>
+        <li><span class="menu-dot" style="color:#cc00cc" aria-hidden="true">●</span><a href="#contact">Contact</a></li>
+        <li><span class="menu-dot" style="color:#ff0000" aria-hidden="true">●</span><a href="./index.html">モダン版</a></li>
+      </ul>
+      <p class="menu-note">最終更新：2026年11月22日</p>
+      <p class="menu-counter">Access <span>012345</span></p>
+    </nav>
+
+    <main class="abe-main" id="main">
+      <div class="abe-page">
+        <h1>denpadokei のホームページ</h1>
+        <p class="page-sub">VRゲームMOD開発を軸に、Windowsデスクトップ・自動化・AIツールへ広がる開発者のポートフォリオ。</p>
+        <hr size="1">
+
+        <table class="profile-layout" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="profile-photo-cell" valign="top">
+              <img class="profile-photo" src="https://avatars.githubusercontent.com/u/55026301?v=4" width="112" height="112" border="0" alt="denpadokei の GitHub アイコン">
+              <table class="profile-table" border="0" cellpadding="0" cellspacing="0" width="256">
+                <tr><td>&nbsp;</td><td><b>denpadokei</b><br>Developer / Japan</td></tr>
+                <tr><td>&nbsp;</td><td>活動開始：2019年</td></tr>
+                <tr><td>&nbsp;</td><td>主な領域：C# / Unity / BSIPA</td></tr>
+                <tr><td>&nbsp;</td><td><a href="#about">自己紹介</a></td></tr>
+                <tr><td>&nbsp;</td><td><a href="https://github.com/denpadokei" target="_blank" rel="noopener noreferrer">GitHub プロフィール</a></td></tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+                <tr><td colspan="2">好きなものを、手を動かして形にしています。<br>遊びのそばに、仕組みをつくる。</td></tr>
+              </table>
+            </td>
+            <td class="profile-spacer">&nbsp;</td>
+            <td class="latest-cell" id="featured" valign="top">
+              <div class="center"><b>★★★　最新情報　★★★</b></div>
+              <hr size="1">
+              <div id="featured-grid" aria-live="polite">
+                <p class="loading">プロジェクトを読み込み中…</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <hr size="1">
+        <table class="stats-table" border="1" cellspacing="0" cellpadding="4">
+          <tr class="stats-labels">
+            <th>公開リポジトリ</th><th>オリジナル</th><th>スター合計</th><th>使用言語</th>
+          </tr>
+          <tr class="stats-values">
+            <td id="stat-repos">137</td><td id="stat-original">70</td><td id="stat-stars">136</td><td id="stat-languages">8</td>
+          </tr>
+        </table>
+
+        <section id="about">
+          <hr size="1">
+          <p class="section-title"><b>・About / 自己紹介</b></p>
+          <table class="indent" border="0" cellpadding="0" cellspacing="0">
+            <tr><td class="indent-space">&nbsp;</td><td>
+              <p>Beat Saber の C#／Unity MOD 開発を中心に、BSIPA や Harmony を使ったゲーム体験の拡張に取り組んできました。2020〜2022年には、楽曲リクエストや譜面情報表示など、プレイヤーや配信者のためのMODを多数公開。</p>
+              <p>近年は Windows デスクトップアプリ、Python の Discord ボット、PowerShell による設定バックアップ、JavaScript／CSS のアプリスキンなどへ領域を広げています。翻訳・記事執筆や AI エージェント向けの設定づくりも、ものづくりの一部です。</p>
+              <p class="tag-line">VR GAME MODS ／ WINDOWS TOOLS ／ AUTOMATION ／ AI WORKFLOWS</p>
+            </td></tr>
+          </table>
+        </section>
+
+        <section id="all-projects">
+          <hr size="1">
+          <p class="section-title"><b>・Repository / リポジトリ一覧</b></p>
+          <table class="indent" border="0" cellpadding="0" cellspacing="0">
+            <tr><td class="indent-space">&nbsp;</td><td class="indent-body">
+              <div id="quick-filters" class="quick-filters" role="group" aria-label="カテゴリで絞り込む"></div>
+              <form id="project-filters" class="search-form" role="search" aria-label="プロジェクトを絞り込む">
+                <div class="form-row">
+                  <label for="search-input">検索：</label>
+                  <input id="search-input" type="search" placeholder="名前、説明、トピックを検索…" autocomplete="off" size="34">
+                </div>
+                <div class="form-row">
+                  <label for="language-filter">言語：</label>
+                  <select id="language-filter"><option value="">すべての言語</option></select>
+                  <label for="topic-filter">トピック：</label>
+                  <select id="topic-filter"><option value="">すべてのトピック</option></select>
+                </div>
+                <div class="form-row">
+                  <label for="sort-select">並び替え：</label>
+                  <select id="sort-select">
+                    <option value="updated">更新が新しい順</option>
+                    <option value="stars">スターが多い順</option>
+                    <option value="name">名前順</option>
+                  </select>
+                  <label class="fork-label"><input id="fork-toggle" type="checkbox"> フォークも表示</label>
+                  <button id="clear-filters" type="button">条件をリセット</button>
+                </div>
+              </form>
+              <p id="result-count" class="result-count" role="status" aria-live="polite">読み込み中…</p>
+              <div id="project-grid" aria-live="polite">
+                <p class="loading">リポジトリを読み込み中…</p>
+              </div>
+              <p id="data-notice" class="data-notice" role="status" aria-live="polite" hidden></p>
+            </td></tr>
+          </table>
+        </section>
+
+        <section id="activity">
+          <hr size="1">
+          <p class="section-title"><b>・Activity / スキルと活動</b></p>
+          <table class="indent" border="0" cellpadding="0" cellspacing="0">
+            <tr><td class="indent-space">&nbsp;</td><td class="indent-body">
+              <p class="panel-title"><b>Languages</b> <span>REPOSITORY COUNT</span></p>
+              <div id="language-bars" class="language-bars"><p class="loading">読み込み中…</p></div>
+              <p class="panel-title"><b>Topics</b> <span>AREAS OF INTEREST</span></p>
+              <div id="topic-cloud" class="topic-cloud"><p class="loading">読み込み中…</p></div>
+              <p class="panel-title"><b>Activity</b> <span>ORIGINAL PROJECTS / YEAR</span></p>
+              <div id="timeline" class="timeline"><p class="loading">読み込み中…</p></div>
+            </td></tr>
+          </table>
+        </section>
+
+        <section id="contact">
+          <hr size="1">
+          <p class="section-title"><b>・Contact / お問い合わせ</b></p>
+          <table class="indent" border="0" cellpadding="0" cellspacing="0">
+            <tr><td class="indent-space">&nbsp;</td><td>
+              <p>プロジェクトやコラボレーションについては、GitHub または SNS からお気軽にどうぞ。</p>
+              <p><a href="https://github.com/denpadokei" target="_blank" rel="noopener noreferrer">GitHub で見る</a> ／ <a href="https://x.com/j_denpadokei" target="_blank" rel="noopener noreferrer">X でつながる</a></p>
+              <p><a href="https://bsky.app/profile/denpadokei.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a> ／ <a href="https://misskey.io/@denpadokei" target="_blank" rel="noopener noreferrer">Misskey.io</a></p>
+            </td></tr>
+          </table>
+        </section>
+
+        <hr size="1">
+        <p class="footer-note">当サイトの内容・テキストの無断転載・無断使用を固く禁じます。</p>
+        <p class="footer-line">© 2026 denpadokei ／ <a href="./index.html">モダン版はこちら</a> ／ <a href="#main">ページ上部へ</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
