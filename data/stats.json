@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T12:41:25.650Z",
+  "generatedAt": "2026-11-27T12:29:08.853Z",
   "user": "denpadokei",
   "total": 138,
   "original": 71,
@@ -12,11 +12,11 @@
       89
     ],
     [
-      "Python",
+      "JavaScript",
       3
     ],
     [
-      "JavaScript",
+      "Python",
       3
     ],
     [
@@ -90,18 +90,6 @@
       2
     ],
     [
-      "discord",
-      1
-    ],
-    [
-      "github-actions",
-      1
-    ],
-    [
-      "pso2ngs",
-      1
-    ],
-    [
       "css",
       1
     ],
@@ -119,6 +107,18 @@
     ],
     [
       "theme",
+      1
+    ],
+    [
+      "discord",
+      1
+    ],
+    [
+      "github-actions",
+      1
+    ],
+    [
+      "pso2ngs",
       1
     ],
     [

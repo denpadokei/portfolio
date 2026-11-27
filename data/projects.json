@@ -1,5 +1,34 @@
 [
   {
+    "name": "openchamber-itachou-mod",
+    "full_name": "denpadokei/openchamber-itachou-mod",
+    "description": "OpenChamber 痛PC MOD - full-screen background image + translucent UI skin for the OpenChamber desktop app",
+    "language": "JavaScript",
+    "topics": [
+      "css",
+      "electron",
+      "itachou",
+      "mod",
+      "openchamber",
+      "theme"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "watchers": 0,
+    "isFork": false,
+    "isTemplate": false,
+    "hasPages": false,
+    "homepage": "",
+    "license": "MIT",
+    "created": "2026-11-13",
+    "pushed": "2026-11-27",
+    "updated": "2026-11-18",
+    "size": 80,
+    "defaultBranch": "main",
+    "url": "https://github.com/denpadokei/openchamber-itachou-mod",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/55026301?v=4"
+  },
+  {
     "name": "pso2ngs-boost-bot",
     "full_name": "denpadokei/pso2ngs-boost-bot",
     "description": "PSO2NGS のブースト／強化応援キャンペーンを Discord に通知する",
@@ -23,35 +52,6 @@
     "size": 268,
     "defaultBranch": "main",
     "url": "https://github.com/denpadokei/pso2ngs-boost-bot",
-    "ownerAvatar": "https://avatars.githubusercontent.com/u/55026301?v=4"
-  },
-  {
-    "name": "openchamber-itachou-mod",
-    "full_name": "denpadokei/openchamber-itachou-mod",
-    "description": "OpenChamber 痛PC MOD - full-screen background image + translucent UI skin for the OpenChamber desktop app",
-    "language": "JavaScript",
-    "topics": [
-      "css",
-      "electron",
-      "itachou",
-      "mod",
-      "openchamber",
-      "theme"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "watchers": 0,
-    "isFork": false,
-    "isTemplate": false,
-    "hasPages": false,
-    "homepage": "",
-    "license": "MIT",
-    "created": "2026-11-13",
-    "pushed": "2026-11-22",
-    "updated": "2026-11-18",
-    "size": 75,
-    "defaultBranch": "main",
-    "url": "https://github.com/denpadokei/openchamber-itachou-mod",
     "ownerAvatar": "https://avatars.githubusercontent.com/u/55026301?v=4"
   },
   {
